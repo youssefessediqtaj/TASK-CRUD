@@ -1,0 +1,95 @@
+/* AddTask.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: #222;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  .input-group {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    background-color: #333;
+    color: white;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #555;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+  }
+  
+  .button:hover {
+    background-color: #888;
+  }
+  
+  .task-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #444;
+    background-color: #333;
+    border-radius: 5px;
+  }
+  
+  .edit-button,
+  .delete-button {
+    padding: 5px 10px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    color: black;
+  }
+  
+  .edit-button {
+    background-color: yellow;
+    margin-right: 5px;
+  }
+  
+  .edit-button:hover {
+    background-color: yellowgreen;
+  }
+  
+  .delete-button {
+    background-color: yellow;
+  }
+  
+  .delete-button:hover {
+    background-color: orangered;
+  }
+  
